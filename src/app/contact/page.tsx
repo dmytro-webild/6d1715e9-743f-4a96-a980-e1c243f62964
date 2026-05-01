@@ -25,38 +25,16 @@ export default function LandingPage() {
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
-      navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "Advantages",
-          id: "/advantages",
-        },
-        {
-          name: "Careers",
-          id: "/careers",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
-      ]}
+      navItems={[{ name: "Home", id: "/" }, { name: "Advantages", id: "/advantages" }, { name: "Careers", id: "/careers" }, { name: "Contact", id: "/contact" }]}
       brandName="UTLogistics"
-      button={{
-        text: "Drive for Us",
-        href: "/contact",
-      }}
+      button={{ text: "Drive for Us", href: "/contact" }}
     />
   </div>
 
   <div id="contact-section" data-section="contact-section">
       <ContactSplit
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       tag="Get In Touch"
       title="Start Your Career with UTLogistics"
       description="Ready to scale the future of freight? Apply today and join the most efficient dispatch-partnership network."
@@ -69,18 +47,8 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <InlineImageSplitTextAbout
       useInvertedBackground={false}
-      heading={[
-        {
-          type: "text",
-          content: "Ready to Start?",
-        },
-      ]}
-      buttons={[
-        {
-          text: "Apply Today",
-          href: "/contact",
-        },
-      ]}
+      heading={[{ type: "text", content: "Ready to Start?" }]}
+      buttons={[{ text: "Apply Today", href: "/contact" }]}
     />
   </div>
 
@@ -91,48 +59,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Why They Join Us"
       description="Hear from current partners."
+      testimonials={[]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/semi-truck-against-cloudy-sky_23-2152008993.jpg?_wi=4"
+      imageSrc="http://img.b2bpic.net/free-photo/semi-truck-against-cloudy-sky_23-2152008993.jpg"
       logoText="UTLogistics"
       columns={[
-        {
-          title: "Company",
-          items: [
-            {
-              label: "About Us",
-              href: "/advantages",
-            },
-            {
-              label: "Careers",
-              href: "/careers",
-            },
-            {
-              label: "Contact",
-              href: "/contact",
-            },
-          ],
-        },
-        {
-          title: "Compliance",
-          items: [
-            {
-              label: "MC# 12345678",
-              href: "#",
-            },
-            {
-              label: "DOT# 87654321",
-              href: "#",
-            },
-            {
-              label: "Privacy Policy",
-              href: "#",
-            },
-          ],
-        },
+        { title: "Company", items: [{ label: "About Us", href: "/advantages" }, { label: "Careers", href: "/careers" }, { label: "Contact", href: "/contact" }] },
+        { title: "Compliance", items: [{ label: "MC# 12345678", href: "#" }, { label: "DOT# 87654321", href: "#" }, { label: "Privacy Policy", href: "#" }] },
       ]}
       copyrightText="© 2025 UTLogistics Inc. | Professional Logistics Services"
     />
