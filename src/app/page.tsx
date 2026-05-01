@@ -66,7 +66,7 @@ export default function LandingPage() {
           href: "/contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/night-trucking-delivers-cargo-steel-warehouse-generated-by-ai_188544-17396.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/night-trucking-delivers-cargo-steel-warehouse-generated-by-ai_188544-17396.jpg?_wi=1"
       imageAlt="professional semi truck highway"
     />
   </div>
@@ -298,7 +298,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/semi-truck-against-cloudy-sky_23-2152008993.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/semi-truck-against-cloudy-sky_23-2152008993.jpg?_wi=1"
       logoText="UTLogistics"
       columns={[
         {
