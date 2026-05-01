@@ -25,29 +25,9 @@ export default function LandingPage() {
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
-      navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "Advantages",
-          id: "/advantages",
-        },
-        {
-          name: "Careers",
-          id: "/careers",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
-      ]}
+      navItems={[{ name: "Home", id: "/" }, { name: "Advantages", id: "/advantages" }, { name: "Careers", id: "/careers" }, { name: "Contact", id: "/contact" }]}
       brandName="UTLogistics"
-      button={{
-        text: "Drive for Us",
-        href: "/contact",
-      }}
+      button={{ text: "Drive for Us", href: "/contact" }}
     />
   </div>
 
@@ -57,36 +37,8 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       groups={[
-        {
-          id: "g1",
-          groupTitle: "CDL Driver Roles",
-          members: [
-            {
-              id: "driver-1",
-              title: "Top-Tier Pay",
-              subtitle: "High Weekly Gross",
-              detail: "Flexible home time and the support you deserve on every mile.",
-              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-working_23-2149908159.jpg",
-            },
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/night-trucking-delivers-cargo-steel-warehouse-generated-by-ai_188544-17396.jpg?_wi=2",
-          imageAlt: "professional truck driver",
-        },
-        {
-          id: "g2",
-          groupTitle: "Dispatch Opportunities",
-          members: [
-            {
-              id: "disp-1",
-              title: "Performance Commission",
-              subtitle: "High-Volume Tools",
-              detail: "Utilize advanced TMS tools to manage load boards effectively and earn commissions.",
-              imageSrc: "http://img.b2bpic.net/free-photo/startup-office-chief-technology-officer-listens-music-while-coding-application_482257-120120.jpg",
-            },
-          ],
-          imageSrc: "http://img.b2bpic.net/free-psd/view-3d-supply-chain-representation-illustration_23-2150766769.jpg",
-          imageAlt: "professional truck driver",
-        },
+        { id: "g1", groupTitle: "CDL Driver Roles", members: [{ id: "driver-1", title: "Top-Tier Pay", subtitle: "High Weekly Gross", detail: "Flexible home time and the support you deserve on every mile." }] },
+        { id: "g2", groupTitle: "Dispatch Opportunities", members: [{ id: "disp-1", title: "Performance Commission", subtitle: "High-Volume Tools", detail: "Utilize advanced TMS tools to manage load boards effectively and earn commissions." }] },
       ]}
       title="Join Our Logistics Team"
       description="Choose your path—whether you are behind the wheel or driving the strategy from the dispatch desk."
@@ -96,18 +48,8 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <InlineImageSplitTextAbout
       useInvertedBackground={false}
-      heading={[
-        {
-          type: "text",
-          content: "Your Future Starts Here",
-        },
-      ]}
-      buttons={[
-        {
-          text: "See Openings",
-          href: "/contact",
-        },
-      ]}
+      heading={[{ type: "text", content: "Your Future Starts Here" }]}
+      buttons={[{ text: "See Openings", href: "/contact" }]}
     />
   </div>
 
@@ -118,48 +60,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Career Insights"
       description="Articles on the future of logistics."
+      blogs={[]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/semi-truck-against-cloudy-sky_23-2152008993.jpg?_wi=3"
+      imageSrc="http://img.b2bpic.net/free-photo/semi-truck-against-cloudy-sky_23-2152008993.jpg"
       logoText="UTLogistics"
       columns={[
-        {
-          title: "Company",
-          items: [
-            {
-              label: "About Us",
-              href: "/advantages",
-            },
-            {
-              label: "Careers",
-              href: "/careers",
-            },
-            {
-              label: "Contact",
-              href: "/contact",
-            },
-          ],
-        },
-        {
-          title: "Compliance",
-          items: [
-            {
-              label: "MC# 12345678",
-              href: "#",
-            },
-            {
-              label: "DOT# 87654321",
-              href: "#",
-            },
-            {
-              label: "Privacy Policy",
-              href: "#",
-            },
-          ],
-        },
+        { title: "Company", items: [{ label: "About Us", href: "/advantages" }, { label: "Careers", href: "/careers" }, { label: "Contact", href: "/contact" }] },
+        { title: "Compliance", items: [{ label: "MC# 12345678", href: "#" }, { label: "DOT# 87654321", href: "#" }, { label: "Privacy Policy", href: "#" }] },
       ]}
       copyrightText="© 2025 UTLogistics Inc. | Professional Logistics Services"
     />
