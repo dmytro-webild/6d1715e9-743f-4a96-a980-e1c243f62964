@@ -67,7 +67,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/semi-truck-against-cloudy-sky_23-2152008993.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/semi-truck-against-cloudy-sky_23-2152008993.jpg?_wi=2"
       logoText="UTLogistics"
       columns={[
         { title: "Company", items: [{ label: "About Us", href: "/advantages" }, { label: "Careers", href: "/careers" }, { label: "Contact", href: "/contact" }] },
